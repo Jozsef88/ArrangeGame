@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.one {
+  background: url('https://picsum.photos/600');
+  background-position: top left;
+}
+
+.two {
+  background: url('https://picsum.photos/600');
+  background-position: top center;
+}
+
+.three {
+  background: url('https://picsum.photos/600');
+  background-position: top right;
+}
+
+.four {
+  background: url('https://picsum.photos/600');
+  background-position: center left;
+}
+
+.five {
+  background: url('https://picsum.photos/600');
+  background-position: center center;
+}
+
+.six {
+  background: url('https://picsum.photos/600');
+  background-position: center right;
+}
+
+.seven {
+  background: url('https://picsum.photos/600');
+  background-position: bottom left;
+}
+
+.eight {
+  background: url('https://picsum.photos/600');
+  background-position: bottom center;
+}
